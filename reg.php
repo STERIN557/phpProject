@@ -17,7 +17,7 @@
 
 <div class="forms">
 
-<form id="form-data" data-route="{{route('regist')}}" method="POST">
+<form id="form-data" action="ind12.php"  method="POST">
 
 <div class="message1">First Name cannot be empty </div>
 <div class="message2">Last Name cannot be empty </div>
