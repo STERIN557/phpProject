@@ -1,0 +1,165 @@
+html{
+    display:block;
+    position: fixed;
+    background-image: url('../images/reg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-position: center center;
+     height: 100vh;
+     width:100%;
+  
+}
+
+body{
+    display:block;
+    height:100%;
+    width:100%;
+    background-color: rgba(26, 27, 26, 0.418);
+    position: fixed;
+    top:-.5rem;
+    left: -.5rem;
+
+}
+.box1{
+    display: block;
+    position: relative;
+    height: 30rem;
+    width: 20rem;
+    left:35%;
+    top:4rem;
+    box-shadow:  0px 0px 20px 4px black;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.219);
+
+}
+
+
+.logo img{
+    display:block;
+    position: relative;
+    height: 7rem;
+    width: 7rem;
+    top:-2rem;
+    left:30%;
+    background-color: black;
+    transform: rotate(-20deg);
+    border:5px solid white;
+}
+
+input[type="text"], input[type="password"]
+{
+    display: block;
+    position: relative;
+    height: 1.7rem;
+    width:13rem;
+    margin:1rem;
+    left:10%;
+    padding-left: 1rem;
+    outline-style: none;
+    border:none;
+    border-radius: 3px;
+}
+input[type="submit"]
+{
+    display: block;
+    position: relative;
+    height: 1.8rem;
+    width:14.03rem;
+    margin:1rem;
+    left:10%;
+    background-color: rgb(151, 0, 181);
+    outline-style: none;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 0px 0px 10px 1px black;
+
+}
+
+
+.message1{
+
+    display: none;
+    position: fixed;
+    left:43%;
+    top:11.789rem;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(216, 11, 199);
+    background-color: rgba(255, 255, 255, 0.479);
+}
+
+.message2{
+    display: none;
+    position: fixed;
+    left:43%;
+    top:14.589rem;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(216, 11, 199);
+    background-color: rgba(255, 255, 255, 0.479);
+}
+
+.message3{
+    display: none;
+    position: fixed;
+    left:43%;
+    top:17.489rem;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(216, 11, 199);
+    background-color: rgba(255, 255, 255, 0.479);
+}
+.message4{
+    display: none;
+    position: fixed;
+    left:43%;
+    top:20.289rem;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(216, 11, 199);
+    background-color: rgba(255, 255, 255, 0.479);
+
+
+}
+.message5{
+    display: none;
+    position: fixed;
+    left:43%;
+    top:23.2rem;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(216, 11, 199);
+    background-color: rgba(255, 255, 255, 0.479);
+    
+}
+.someMessage{
+    display: none;
+    position: fixed;
+    height: 25rem;
+    width: 30rem;
+    background-color: rgba(255, 255, 255, 0.582);
+     left:30%;
+     top:6rem; 
+     box-shadow: 0px 0px 20px 2px black;
+     border-radius: 3px;
+     
+}
+
+.mes{
+    display: block;
+    position: absolute;
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: -apple-system, Arial;
+     top:2rem;
+    left:18%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

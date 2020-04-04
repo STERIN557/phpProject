@@ -1,0 +1,1170 @@
+
+html{
+  
+    background-color: black;
+    
+}
+.box1{
+    display: block;
+    position: fixed;
+    height: 97%;
+    width:16rem;
+    background-color: rgb(184, 30, 255);
+    box-shadow: 0px 0px 10px 2px rgb(12, 12, 12);
+    border-radius: 3px;
+    background-color: white(0, 0, 0, 0.192);
+    transition: ease-in-out;
+    transition-duration: 1s;
+}
+
+
+.FirstPageOne img{
+    display: none;
+    position: absolute;
+    z-index: 0;
+  
+    color: rgb(24, 140, 255);
+     top:-13rem;
+     left:-10rem;
+     background-color: dodgerblue;
+}
+
+
+.box{
+    display: fixed;
+    position: relative;
+    height: 3rem;
+    width: 3rem;
+    /* background-color: orange; */
+    left:14rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: ease-in-out;
+    transition-duration: .84s;
+  
+}
+
+.b1{
+    display: block;
+    position: absolute;
+    height: 5px;
+    top:.5rem;
+    box-shadow: 0px 0px 1px 1px rgb(37, 48, 145) ;
+    width:60%;
+    margin-left:2px;
+    margin-right: 2px;
+    left:-3px;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+
+.b2{
+    display: block;
+    position: absolute;
+    height: 5px;
+    top:1rem;
+    box-shadow: 0px 0px 1px 1px rgb(37, 48, 145) ;
+    width:60%;
+    margin-left:2px;
+    margin-right: 2px;
+    left:-3px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+
+.b3{
+    display: block;
+    position: absolute;
+    height: 5px;
+    top:1.5rem;
+    box-shadow: 0px 0px 1px 1px rgb(37, 48, 145) ;
+    width:60%;
+    margin-left:2px;
+    margin-right: 2px;
+    left:-3px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+
+.profile img{
+    display: block;
+    position: absolute !important;
+    height: 7rem;
+    width:7rem;
+    border-radius: 100%;
+    left:27%;
+    top:5rem;
+    border:1px solid white;
+    box-shadow: 0px 0px 10px 3px rgba(241, 234, 234, 0.301);
+    cursor: pointer;
+}
+.inform
+{
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    font-family: -apple-system, Arial;
+    font-weight: bold;
+    color: white;
+    text-shadow:  0px 0px 2px rgb(40, 37, 94);
+    top:14rem;
+    left:35%;
+}
+.info11
+{
+    display: block;
+    position: absolute;
+    width:80%;
+    height: 4rem;
+    background: white;
+    box-shadow: 0px 0px 5px 2px rgb(46, 76, 104);
+    font-size: 14px;
+    font-family: -apple-system, Arial;
+    font-weight: bold;
+    color: rgb(63, 60, 84);
+    text-shadow:  0px 1px 1px rgba(36, 35, 52, 0.062);
+    top:17rem;
+    left:.9rem;
+    padding:10px;
+    padding-top:25px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    border-radius: 4px;
+}
+
+input[type="button"]
+{
+    display: block;
+    position: relative;
+    top:22rem;
+    left:.8rem;
+     
+    height: 2rem;
+    width:91%;
+    outline-style: none;
+    border:none;
+    font-size: 14px;
+    font-family: -apple-system, Arial;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px 1px rgba(16, 16, 17, 0.377);
+    background-color: deepskyblue;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.changit
+{
+    display: block;
+    position: absolute;
+    top:28rem;
+    left:.8rem;
+     
+    height: 2rem;
+    width:91%;
+    outline-style: none;
+    border:none;
+    font-size: 14px;
+    font-family: -apple-system, Arial;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px 1px rgba(16, 16, 17, 0.377);
+    background-color: dodgerblue;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+
+}
+.txt{
+    display: block;
+    position: relative;
+    top:.4rem;
+}
+ 
+
+
+
+.box222{
+    display: block;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 97%;
+    width:35rem;
+    background-color: dodgerblue;
+    left:27%;
+    top:0.5rem;
+    box-shadow:  0px 0px 10px 2px rgb(19, 19, 19);
+    border-radius: 3px;
+}
+
+.box333{
+     display: block;
+     position: fixed;
+     overflow-y: scroll;
+     overflow-x: hidden;
+     height: 97%;
+     width:14rem;
+     background-color: darkorange;
+     top:.5rem;
+     left:78%;
+     box-shadow:  0px 0px 10px 1px rgb(8, 8, 8);
+     z-index: 3;
+}
+.optionss{
+    display: block;
+    position: relative;
+    height: 1rem;
+    width:60%;
+    
+    top:10rem;
+    margin:1rem 0rem 1rem 3rem;
+    padding:.4rem;
+    padding-left:1rem;
+    
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    cursor: pointer;
+    border-radius: 3px;
+   
+}
+
+.optionss:hover{
+    background-color: rgba(255, 255, 255, 0.397);
+}
+.imageforlogo img{
+    display: block;
+    position: absolute !important;
+    height: 7rem;
+    width: 7rem;
+    left:25%;
+    background-color: rgb(255, 68, 0);
+    top:2rem;
+    transform: rotate(-20deg);
+    box-shadow:  0px 0px 20px 2px rgba(7, 4, 6, 0.205);
+    
+
+}
+
+#idiot{
+    display: block;
+    position: relative;
+    z-index:-4;
+    left:100%;
+    opacity: 0;
+    width:0;
+    height: 0;
+}
+
+
+.inbox{
+    display: none;
+    position: relative;
+    height: fit-content;
+    width:97%;
+    
+    left:.5rem;
+    
+    margin-top:.5rem;
+    border-radius: 3px;
+}
+
+
+.outercomment{
+    display: none;
+    position: relative;
+    transition-duration: 4s;
+
+}
+
+
+
+#outerstuff{
+    display: block;
+    position: fixed;
+    top:50%;
+    height: 5rem;
+    left:30%;
+    width:30rem;
+    z-index:10;
+    border:none;
+    outline-style: none;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow:  0px 0px 20px 2px rgba(0, 0, 0, 0.295);
+    resize: none;
+    color: rgb(102, 98, 98);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:1rem;
+    padding-top:1rem;
+  
+}
+::-webkit-scrollbar{
+    opacity: 0;
+    
+    
+}
+
+#ss{
+    display: block;
+    position:fixed;
+    top:68%;
+    z-index:10;
+    left:30%;
+    border:none;
+    height: 2rem;
+    width:4rem;
+    color: white;
+    background-color:rgb(58, 155, 251);
+    border-radius: 3px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.171);
+    cursor: pointer;
+
+}
+
+
+
+.optionsplus{
+    display: inline-block;
+    position: relative;
+    left:17rem;
+    font-size: 25px;
+    font-weight: lighter;
+    cursor: pointer;
+     
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.optionsplus:hover{
+    background-color: rgba(0, 0, 0, 0.151);
+}
+
+.heading1{
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    font-family: -apple-system,Arial;
+   margin-left:2rem;
+   padding:.4rem;
+    color: white;
+
+}
+.tick{
+    display: block;
+    position: relative;
+    height: 1rem;
+    width: 1rem;
+  left:2rem;
+  background-color: #fff;
+  top:.4rem;
+    border-radius: 100%;
+    border:1px solid white
+
+}
+.add{
+    display: block;
+    position: relative;
+    font-size: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    left:4rem;
+    top:-.7rem;
+
+    padding-right: 5rem;
+    
+    
+}
+.titlessss{
+    display: block;
+    position: relative;
+    text-overflow: ellipsis;
+    background-color: rgba(0, 0, 0, 0.171);
+    min-height: 2rem;
+    height: fit-content;
+    width:90%;
+    padding-top:.5rem;
+    padding-left: .4rem;
+    border-radius: 3px;
+    top:-.4rem;
+
+
+}
+
+
+.divide ,.divide1{
+
+
+    display: block;
+    position: relative;
+    border:orange;
+    margin-top:5px;
+    cursor: pointer;
+    width:100%;
+    height: fit-content;
+    text-overflow: clip;
+
+    border-radius: 5px;
+  
+    
+}
+
+.tk{
+    display: block;
+    position: absolute !important;
+    height: .8rem;
+    width:  .3rem;
+    left:   .3rem;
+    border:1.4px solid rgb(32, 32, 33);
+    border-top:none;
+    border-left:none;
+    transform: rotate(40deg);
+    cursor: pointer;
+}
+ .inputsforupdatingtodo{
+    margin-top:1rem;
+    display: none;
+    position: relative;
+    
+  
+  
+}
+
+
+.date{
+    display: none;
+    position: absolute;
+    min-height: 3rem;
+    max-height: fit-content;
+    background-color: white;
+    width:5rem;
+    top:4.5rem;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.418);
+    left:70%;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    padding-top:2rem;
+    color: rgb(45, 44, 47);
+    z-index: 1;
+
+
+}
+
+.addtask{
+    display:none;
+    position:relative;
+     margin-top:.6rem;
+     top:.8rem;
+     border-radius: 3px;
+     background-color: dodgerblue;
+     color: white;
+     width:fit-content;
+     padding: .5rem;
+     box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.226);
+}
+.cancelbutton{
+    display: none;
+    position:relative;
+    left:5rem;
+    top:-.5rem;
+    
+
+    
+}
+.cancelbutton:hover{
+    color: dodgerblue;
+}
+
+
+#todoss{
+    display: block;
+    position: relative;
+  top:7rem;
+  left:-20rem;
+  width:23rem;  
+  min-height:4rem;
+  max-height: 10rem;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.418);
+  z-index: 1;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  resize: none;
+  outline-style: none;
+  padding-left: 10px;
+  padding-top:10px;
+  color: rgb(69, 74, 85);
+   
+}
+
+.okkkk{
+    display: block;
+    position: relative;
+    top:5rem;
+    opacity: 0;
+    z-index: -1;
+}
+
+
+
+
+
+hr{
+ font-size: 1px;
+}
+
+.calculator
+{
+    display: block;
+    position: fixed;
+    z-index: -1;
+    height: 32rem;
+    width:15rem;
+    background-color: #fff;
+    top:3rem;
+    left:0rem;
+    background-color: rgb(32, 34, 50);
+    box-shadow:0px 0px 10px 1px black;
+    transition: ease-in-out;
+    transition-duration: 1s;
+}
+
+#values{
+    display: block;
+    position: relative;
+    height: 3rem;
+    width: 75%;
+    left:.9rem;
+    top:2rem;
+    outline-style: none;
+    background-color: rgb(2, 2, 3);
+    font-size: 14px;
+    color: white;
+    padding-left: 1rem;
+    border:none;
+    border:.1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    direction: rtl;
+    padding-right: 1rem;
+}
+
+.keyss
+{
+display: block;
+position: relative;
+height: 24rem;
+width:87%;
+top:4rem;
+left:1rem;
+background-color:  rgb(32, 34, 50);
+box-shadow: inset 0px 0px 10px 2px rgb(17, 18, 26) ;
+}
+.number:nth-child(1){
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+    background-color:  rgb(32, 34, 50);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top:12px;
+    border-radius: 5px;
+    top:.3rem;
+    left:.3rem;
+    cursor: pointer;
+   
+
+}
+.number:nth-child(1):hover{
+    background-color: rgba(255, 255, 255, 0.767);
+    color: rgb(43, 42, 42);
+}
+.number:nth-child(2):hover{
+    background-color: rgba(255, 255, 255, 0.767);
+    color: rgb(43, 42, 42);
+}
+.number:nth-child(3):hover{
+    background-color: rgba(255, 255, 255, 0.767);
+    color: rgb(43, 42, 42);
+}
+.number:nth-child(4):hover{
+    background-color: rgba(255, 255, 255, 0.767);
+    color: rgb(43, 42, 42);
+}
+.number:nth-child(5):hover{
+    background-color: rgba(255, 255, 255, 0.767);
+    color: rgb(43, 42, 42);
+}
+.number:nth-child(6):hover{
+    background-color: rgba(255, 255, 255, 0.767);
+    color: rgb(43, 42, 42);
+}
+.number:nth-child(7):hover{
+    background-color: rgba(255, 255, 255, 0.767);
+    color: rgb(43, 42, 42);
+}
+.number:nth-child(8):hover{
+    background-color: rgba(255, 255, 255, 0.767);
+    color: rgb(43, 42, 42);
+}
+.number:nth-child(9):hover{
+    background-color: rgba(255, 255, 255, 0.767);
+    color: rgb(43, 42, 42);
+}
+.number:nth-child(10):hover{
+    background-color: rgba(255, 255, 255, 0.767);
+    color: rgb(43, 42, 42);
+}
+.cancel:hover{
+    background-color: rgba(250, 50, 0, 0.767);
+    color: rgb(255, 255, 255);
+}
+.AC:hover{
+    background-color: rgba(255, 255, 255, 0.767);
+    color: rgb(43, 42, 42);
+}
+.Equals:hover{
+    background-color: rgba(0, 119, 255, 0.767);
+    color: rgb(255, 255, 255);
+}
+
+.number:nth-child(2){
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+    background-color:  rgb(32, 34, 50);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top:12px;
+    border-radius: 5px;
+    top:-2.4rem;
+    left:5rem;
+    cursor: pointer;
+
+}
+.number:nth-child(3){
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+    background-color:  rgb(32, 34, 50);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top:12px;
+    border-radius: 5px;
+    top:-5.1rem;
+    left:9.7rem;
+    cursor: pointer;
+
+}
+.number:nth-child(4){
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+    background-color:  rgb(32, 34, 50);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top:12px;
+    border-radius: 5px;
+    top:-4rem;
+    left:.3rem;
+    cursor: pointer;
+
+}
+.number:nth-child(5){
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+    background-color:  rgb(32, 34, 50);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top:12px;
+    border-radius: 5px;
+    top:-6.7rem;
+    left:5rem;
+    cursor: pointer;
+}
+.number:nth-child(6){
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+    background-color:  rgb(32, 34, 50);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top:12px;
+    border-radius: 5px;
+    top:-9.5rem;
+    left:9.7rem;
+    cursor: pointer;
+
+}
+.number:nth-child(7){
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+    background-color:  rgb(32, 34, 50);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top:12px;
+    border-radius: 5px;
+    top:-8.4rem;
+    left:0.3rem;
+    cursor: pointer;
+    
+   
+}
+.number:nth-child(10)
+{
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+    background-color:  rgb(32, 34, 50);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top:12px;
+    border-radius: 5px;
+    top:-12.7rem;
+    left:5rem;
+    cursor: pointer;
+}
+.number:nth-child(8){
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+    background-color:  rgb(32, 34, 50);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top:12px;
+    border-radius: 5px;
+    top:-11.05rem;
+    left:5rem;
+    cursor: pointer;
+
+}
+.number:nth-child(9){
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+    background-color:  rgb(32, 34, 50);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top:12px;
+    border-radius: 5px;
+    top:-13.8rem;
+    left:9.7rem;
+    cursor: pointer;
+
+}
+.number:nth-child(11){
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+    background-color:orange;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top:12px;
+    border-radius: 5px;
+    top:-15.5rem;
+    left:.4rem;
+    cursor: pointer;
+
+}
+.number:nth-child(12){
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+    background-color:orange;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top:12px;
+    border-radius: 5px;
+    top:-18.2rem;
+    left:9.7rem;
+    cursor: pointer;
+
+}
+.number:nth-child(13){
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+    background-color:orange;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top:12px;
+    border-radius: 5px;
+    top:-16.8rem;
+    left:9.7rem;
+    cursor: pointer;
+
+}
+.number:nth-child(14){
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+    background-color:orange;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top:12px;
+    border-radius: 5px;
+    top:-19.5rem;
+    left:.4rem;
+    cursor: pointer;
+
+}
+.cancel{
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 5rem;
+    background-color:  rgb(32, 34, 50);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top: 12px;
+    border-radius: 5px;
+    top:-18rem;
+    left:.3rem;
+    cursor: pointer;
+}
+.AC{
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+    background-color:  orange;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top:12px;
+    
+    border-radius: 5px;
+    top:-24.97rem;
+    left:5rem;
+    cursor: pointer;
+}
+.Equals{
+    display: block;
+    position: relative;
+    height: 2rem;
+    width: 5.5rem;
+    background-color:  rgb(32, 34, 50);
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(17, 18, 26);
+    padding-top: 12px;
+    border-radius: 5px;
+    top:-23.5rem;
+    left:7rem;
+    cursor: pointer;
+}
+
+.updates{
+    display: none;
+    position: fixed;
+    height: 100%;
+    width:100%;
+    background-color: rgba(21, 21, 21, 0.397);
+    z-index: 99;
+    top:0;
+    left:0;
+}
+.updateOption{
+    z-index: 1;
+    display: block;
+    position: relative;
+    width:30rem;
+    min-height: 20rem;
+    height: fit-content;
+    left:30%;
+    top:5rem;
+    background-color: dodgerblue;
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 20px 2px black;
+    transition-duration: 1s;
+}
+.earlyInfo{
+    display: block;
+    position: relative;
+
+}
+.titl{
+    display: block;
+    position: relative;
+    font-size: 13px;
+    font-family: -apple-system, Arial;
+    color: white;
+    font-weight: bold; 
+    top:2rem;
+    left:20%;
+    
+}
+.titl2{
+    display: block;
+    position: relative;
+    font-size: 13px;
+    font-family: -apple-system, Arial;
+    color: white;
+    font-weight: bold; 
+    top:-11rem;
+    left:75%;
+
+
+}
+.somethingInfo{
+    display: block;
+    position: relative;
+    height: fit-content;
+    width:30%;
+   color: yellow;
+    top:5rem;
+    left:10%;
+    padding:20px;
+    margin:10px;
+}
+label{
+    font-size: 14px;
+    color: white;
+     
+}
+
+form{
+    display: block;
+    position: relative;
+    width:40%;
+    height: fit-content;
+    left:65%;
+    top:-6rem;
+  
+}
+
+#one, #two, #three, #four{
+    display: block;
+    position: relative;
+    border:none;
+    outline-style: none;
+    margin:10px;
+    height: 1.4rem;
+    width:60%;
+    padding-left: 1rem;
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(57, 57, 57);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.249);
+
+}
+::placeholder{
+  color: rgb(57, 57, 57);
+}
+
+#five {
+    display: block;
+    position: relative;
+    border:none;
+    background-color: white;
+    color: rgb(57, 57, 57);
+    height: 3rem;
+    width:15rem;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.249);
+    left:-11.3rem;
+    top:2rem;
+    outline-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#o1, #o2, #o3, #o4{
+    display: block;
+    position: relative;
+    margin-top:1rem;
+}
+
+.cancelling{
+    display: block;
+    position: relative;
+    background-color: #fff;
+    height: 1.5rem;
+    width: 3rem;
+     padding-left: .5rem;
+     border-radius: 15px;
+    top:8rem;
+    left:65%;
+    padding-top:2px;
+    color:rgb(16, 80, 106);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px rgba(177, 178, 179, 0.351);
+    z-index:4;
+}
+
+.statuss{
+    display: none;
+    position: fixed;
+    z-index: 5;
+    height: 5rem;
+    width: 15rem;
+    top:7rem;
+    background: white;
+    box-shadow: 0px 0px 30px 2px black;
+    border-radius: 15px;
+    left:40%;
+    color: red;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-left:.1rem;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.404);
+    padding-top:3rem;
+    animation : comefromtop 1s ease-in-out;
+} 
+@keyframes comefromtop{
+    from{top:1rem}
+    to{ top: 7rem}
+}
+
+
+.shade{
+    display: block;
+    position: absolute;
+    height: 3rem;
+    width:7rem;
+    
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    top:8.5rem;
+    left:4.4rem; 
+    border-radius: 0 0 50px 50px;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    padding-top:.5rem;
+
+
+}
+.shade:hover{
+    background: rgba(0, 0, 0, 0.61);
+    opacity: 1;
+  
+}
+
+#photos{
+    display: block;
+    position: absolute;
+    top:9rem;
+    width:.4rem;
+    height:.4rem;
+   left:9rem;
+   opacity: 0;
+    background-color: red;
+    z-index:-1;
+}
+
+.bigprofile img{
+    display:none;
+    position: fixed;
+    height:70%;
+    width:40%;
+     box-shadow: 0px 0px 20px 2px black;
+    z-index:4;
+    left:30%;
+    top:6rem;
+    border-radius: 15px;
+  
+    animation: comefrom 1s ease-in-out;
+
+    
+}
+
+@keyframes comefrom{
+    from{
+        left:5%;
+        height:10%;
+        width:10%;
+        border-radius: 100%;
+    }
+    to{
+        left:30%;
+        height:70%;
+        width:40%;
+        border-radius: 15px;
+    }
+}
+.cross img{
+    display: none;
+    position: absolute;
+    z-index: 5;
+    height: 1rem;
+    background-color: dodgerblue;
+    width: 1rem;
+    left:67%;
+    top:7rem;
+    animation: crosswala 1s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px black;
+}
+@keyframes crosswala{
+    from{
+        left:5%;
+        height:0rem;
+        width:0rem;
+        border-radius: 100%
+    }
+    to{
+        left:67%;
+        height:1rem;
+        width:1rem;
+        border-radius: 100%;
+    }
+}
+
+
