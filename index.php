@@ -11,9 +11,9 @@
 <body>
 
 
-<div class="alertingsystem">
-  User Doesn't exist <br>
-  please Register if you are not a User
+<div class="alertingsystem" style="padding-left:3rem;">
+  Credentials Cannot be Empty <br>
+  
 </div>
 
 <div class="someextra">
@@ -29,7 +29,7 @@
 <div id="messages">
 
 </div>
-<form id="form-data" method="POST" data-route="{{route('logins')}}" enctype="multipart/form-data"> 
+<form id="form-data" method="POST"  enctype="multipart/form-data"> 
 
 
 <input type="text" name="username"  placeholder="User name">
@@ -40,7 +40,9 @@
 
 
 <div class="message" >
+<a href="./reg.php" >
     don't have account! create here
+    </a>
 </div>
 </div>
 

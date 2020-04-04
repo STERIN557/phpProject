@@ -12,6 +12,8 @@ html{
   
 }
 
+
+
 body{
     display: flex;
     position: relative;
@@ -100,7 +102,7 @@ input[type="submit"]
     display: block;
     position: relative;
     font-size: 12px;
-    color:  rgb(255, 75, 9);
+    
     font-family: Arial, Helvetica, sans-serif;
     top:8rem;
     left:4.7rem;
@@ -109,6 +111,13 @@ input[type="submit"]
     cursor: pointer;
 
 }
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+
+
 .alert{
     display: block;
     position: fixed;
