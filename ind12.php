@@ -25,6 +25,8 @@ $email = $_POST['email'];
 $password = $_POST['pass'];
 $connfpass = $_POST['Confpass'];
 
+
+
 if(empty($firstname))
 {
     echo "1";
@@ -44,6 +46,13 @@ else if(empty($password))
 else if(empty($connfpass))
 {
     echo "5";
+}
+else if($password!=$connfpass)
+{
+    echo "6";
+} else if(strlen($password) < 8)
+{
+    echo "7";
 }
 else{
 
@@ -80,7 +89,7 @@ else{
 
     }
     else{
-        echo "Connection Problem";
+        echo "404";
     }
 
 

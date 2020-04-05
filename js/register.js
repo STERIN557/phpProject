@@ -9,7 +9,48 @@ $(document).ready(()=>{
            data: form_data.serialize(),
            success: function(Response)
            {
-             console.log(Response);  
+            //  console.log(Response);  
+
+            if(Response==1)
+            {
+                $(".message1").css("display","block");
+
+            }
+            else if(Response==2)
+            {
+                $(".message2").css("display","block");
+
+            }
+            else if(Response==3)
+            {
+                $(".message3").css("display","block");
+            }
+            else if(Response==4)
+            {
+               $(".message4").css("display","block"); 
+            }
+            else if(Response==5)
+            {
+               $(".message5").css("display","block"); 
+            }
+            else if(Response==6)
+            {
+                alert("password do not match");
+            }
+            else if(Response==404){
+                alert("Connection Problem");
+
+            }else if(Response==7)
+            {
+                alert("password length needs to me more than 8");
+            }
+            else{
+
+          $(".box1").css("display","none");
+           $(".someMessage").css("display","block")
+            $(".someMessage .mes").prepend(`Your Username is :<br><br> ${Response} <br><br> Please Remember your username and password <br> click here to <span style='color:white;'><a href="./index.php">login</a></span>`);
+            }
+
            },
        });
         e.preventDefault();
@@ -51,8 +92,6 @@ $(document).ready(()=>{
 //                }
 //                else{
                    
-//                    $(".box1").css("display","none");
-//                    $(".someMessage").css("display","block");
-//                    $(".someMessage .mes").prepend(`Your Username is :<br><br> ${Response} <br><br> Please Remember your username and password <br> click here to <span style='color:white;'><a href="{{route('/')}}">login</a></span>`);
+
                    
 //                 }
