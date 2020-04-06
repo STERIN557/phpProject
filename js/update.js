@@ -4,90 +4,109 @@ $(document).ready(()=>{
   var pres = 0;
 
     $("#form-datas").submit((e)=>{
-        var route = $('#form-datas').data('route');
+       
         var form_data = $("#form-datas");
-        console.log(route);
-     
-        //   var s = form_data.serialize()+ "&useR=someh";
+
+       
         
        $.ajax({
            type:'POST',
-           url: route,
+           url: 'ind34.php',
            data: form_data.serialize(),
            success: function(Response)
            {
                console.log(Response)
 
                
-              if(Response=="uNot")
+            //   if(Response=="uNot")
             
-              {
+            //   {
                  
-                $(".thing").addClass("statuss");
-                $(".statuss").addClass("note");
-                  $(".statuss").css("display","block");
+            //     $(".thing").addClass("statuss");
+            //     $(".statuss").addClass("note");
+            //       $(".statuss").css("display","block");
                 
-                $(".note").text("username cannot be empty");
+            //     $(".note").text("username cannot be empty");
                 
-                setTimeout(doit,2000);
+            //     setTimeout(doit,2000);
 
-              }
-              else if(Response=="lNot")
-              {
-                $(".thing").addClass("statuss");
-                $(".statuss").addClass("note");
-             $(".statuss").css("display","block");
+            //   }
+            //   else if(Response=="lNot")
+            //   {
+            //     $(".thing").addClass("statuss");
+            //     $(".statuss").addClass("note");
+            //  $(".statuss").css("display","block");
                 
-                $(".note").text("lastname cannot be empty");
+            //     $(".note").text("lastname cannot be empty");
                 
-                setTimeout(doit,2000);
+            //     setTimeout(doit,2000);
 
-              }
-              else if(Response=="fNot")
-              {
-                $(".thing").addClass("statuss");
-                $(".statuss").addClass("note");
-             $(".statuss").css("display","block");
+            //   }
+            //   else if(Response=="fNot")
+            //   {
+            //     $(".thing").addClass("statuss");
+            //     $(".statuss").addClass("note");
+            //  $(".statuss").css("display","block");
                 
-                $(".note").text("firstname cannot be empty");
+            //     $(".note").text("firstname cannot be empty");
                 
-                setTimeout(doit,2000);
+            //     setTimeout(doit,2000);
 
-              }
-              else if(Response=="pNot")
-              {
-                $(".thing").addClass("statuss");
-                $(".statuss").addClass("note");
-             $(".statuss").css("display","block");
+            //   }
+            //   else if(Response=="pNot")
+            //   {
+            //     $(".thing").addClass("statuss");
+            //     $(".statuss").addClass("note");
+            //  $(".statuss").css("display","block");
                 
-                $(".note").text("password cannot be empty");
+            //     $(".note").text("password cannot be empty");
                 
-                setTimeout(doit,2000);
-              }
-              else{
-                $(".thing").addClass("statuss");
-                $(".statuss").addClass("note");
-             $(".statuss").css("display","block");
-                $(".note").css("color","green");
-                $(".note").text("Successfully Updated");
+            //     setTimeout(doit,2000);
+            //   }
+            //   else{
+            //     $(".thing").addClass("statuss");
+            //     $(".statuss").addClass("note");
+            //  $(".statuss").css("display","block");
+            //     $(".note").css("color","green");
+            //     $(".note").text("Successfully Updated");
                 
-                setTimeout(doit,3000);
+            //     setTimeout(doit,3000);
 
-                window.location.replace("/");
-              }
+            //     // window.location.replace("/");
+            //   }
            
            },
        });
 
 
-       function doit()
-       {
-           $(".note").css("display","none");
-           $(".statuss").css("display","none");
-       }
+      //  function doit()
+      //  {
+      //      $(".note").css("display","none");
+      //      $(".statuss").css("display","none");
+      //  }
         e.preventDefault();
 
     });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     $(".cancelling").click(()=>{

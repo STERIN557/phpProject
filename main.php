@@ -60,11 +60,15 @@
 Upload
 </div>
 <div class="inform">
-{{$info}}
+<?php
+
+echo $_GET['username'];
+
+?>
 </div>
 <div class="info11">
-  Full name : {{$firstname}} {{$lastname}} <br>
-  Email : {{$email}}
+  Full name : <?php echo $_GET['firstname']." ".$_GET['lastname'] ?><br>
+  Email : <?php echo $_GET['email'] ?>
 </div>
 <div class="update">
 
@@ -210,10 +214,10 @@ Upload
 
       <div class="somethingInfo">
          
-      <div id="o1">    <label for="firstname">Firstname</label> : {{$firstname}} <br></div>
-     <div id=o2>     <label for="lastname">lastname</label> : {{$lastname}} <br></div>
-       <div id=o3>   <label for="Username">Username</label> : {{$username}} <br></div>
-   <div id="o4">    <label for="Password">Password</label>: {{$pass}} <br></div>
+      <div id="o1">    <label for="firstname">Firstname</label> : <?php echo $_GET['firstname'] ?> <br></div>
+     <div id=o2>     <label for="lastname">lastname</label> : <?php echo $_GET['lastname']?> <br></div>
+       <div id=o3>   <label for="Username">Username</label> : <?php echo $_GET['username'] ?> <br></div>
+   <div id="o4">    <label for="Password">Password</label>: <?php echo $_GET['pass'] ?><br></div>
 
 
       </div>
@@ -222,13 +226,13 @@ Upload
   <div class="titl2">
     NEW
   </div>
-<form id="form-datas" method="POST" data-route="{{route('UP')}}" enctype="multipart/form-data">
-  {{csrf_field()}}
+<form id="form-datas" method="POST"  enctype="multipart/form-data">
+
   <input id="one"  type="text" name="firstname" placeholder="New firstname">
   <input id="two" type="text" name="lastname" placeholder="New lastname">
   <input id="four" type="text" name="username" placeholder="New Username">
   <input id="three" type="text" name="password" placeholder="New Password">
-  <input type="hidden" value={{$info}} name="realUser">
+  <input type="hidden" <?php echo "value=".$_GET['username']; ?> name="realUser">
  
   <input id="five" type="submit" value="Update">
 </form>

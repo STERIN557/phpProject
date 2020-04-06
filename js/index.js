@@ -27,8 +27,9 @@ $(document).ready(()=>{
           }
           else if(Response)
           {
-              
-              window.location.replace(`/phptodolist/main.php?username=${Response}`);
+
+
+              window.location.replace(`/phptodolist/main.php?${Response}`);
           }
        
            

@@ -25,15 +25,17 @@ $password = $_POST['password'];
 if(username && $password)
 {
 
-    $sql = "SELECT username from users where username = '$username' and pass='$password'";
+    $sql = "SELECT * from users where username = '$username' and pass='$password'";
 
 
 $result = $conn->query($sql);
 
 if($result)
 {
+    
     while($row = $result->fetch_assoc()) {
-       echo $row['username'];
+   
+        echo "firstname=".$row['firstname']."&username=".$row['username']."&lastname=".$row["lastname"]."&pass=".$row['pass']."&email=".$row['email'];
     }
 }
 else{
